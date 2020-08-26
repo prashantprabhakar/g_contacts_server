@@ -1,0 +1,20 @@
+{
+  "name": "g_contacts_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=production && node index.js",
+    "start-dev": "export NODE_ENV=development && nodemon"
+  },
+  "author": "prashantprabhakar123@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
