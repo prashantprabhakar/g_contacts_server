@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=production && node index.js",
-    "start-dev": "export NODE_ENV=development && nodemon"
+    "start": "node index.js",
+    "start-dev": "nodemon"
   },
   "author": "prashantprabhakar123@gmail.com",
   "license": "ISC",
