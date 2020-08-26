@@ -17,3 +17,9 @@
 - npm start
 - use npm start-dev for development server (requires nodemon)
 
+
+## Docker setup
+
+- docker-compose build
+- docker-compose up
+- The server will run on port 8080

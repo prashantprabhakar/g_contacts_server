@@ -1,0 +1,13 @@
+version: "3"
+services:
+
+  app: 
+    container_name: g_contacts_app
+    #  starts as soon as app crashes
+    restart: always 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "8080:4000"
+  
